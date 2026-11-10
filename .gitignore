@@ -1,0 +1,13 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+*.motus
+*.motus-*
+*.sqlite*
+*.rds
+*.pdf
+validation_*/
+*.Rcheck/
+*.tar.gz

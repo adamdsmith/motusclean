@@ -1,0 +1,29 @@
+Package: motusclean
+Type: Package
+Title: Prepare and Validate Motus Detections
+Version: 0.1.0
+Authors@R: person("Adam", "Smith", email = "asmith@abcbirds.org",
+    role = c("aut", "cre"))
+Description: Prepares Motus wildlife tracking detections for automated quality
+    assessment and manual run-level validation. Produces review materials,
+    vetted detection maps, and versioned hit-level exports.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.1.0)
+Imports:
+    DBI,
+    dplyr (>= 1.1.1),
+    ggplot2,
+    ggrepel,
+    purrr,
+    rnaturalearth,
+    tibble,
+    tidyr
+Suggests:
+    rnaturalearthdata,
+    rnaturalearthhires,
+    testthat (>= 3.0.0)
+Additional_repositories: https://ropensci.r-universe.dev
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
